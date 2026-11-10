@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilakabathini Samaram | Portfolio</title>
+    <style>
+        :root { 
+            --bg: #0d1117; 
+            --card-bg: #161b22; 
+            --accent: #58a6ff; 
+            --cyan: #56b6c2; 
+            --text: #c9d1d9; 
+            --border: #30363d;
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background-color: var(--bg); 
+            color: var(--text); 
+            margin: 0; 
+            padding: 40px 20px; 
+            line-height: 1.6; 
+        }
+        .container { max-width: 950px; margin: 0 auto; }
+        header { border-bottom: 1px solid var(--border); padding-bottom: 25px; margin-bottom: 40px; }
+        h1 { color: #fff; margin: 0 0 10px 0; font-size: 2.5rem; }
+        .subtitle { color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 1.2px; margin: 0; font-size: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-bottom: 40px; }
+        .card { background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-2px); border-color: #444c56; }
+        .card h2 { color: #fff; margin-top: 0; border-bottom: 1px solid var(--border); padding-bottom: 10px; font-size: 1.4rem; display: flex; align-items: center; justify-content: space-between; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; }
+        .badge-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
+        .badge { background: #21262d; border: 1px solid var(--border); color: var(--cyan); padding: 6px 12px; border-radius: 4px; font-size: 0.85rem; font-family: monospace; }
+        .footer-card { text-align: center; background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 35px; }
+        .links-group { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 25px; }
+        .portfolio-btn { display: inline-block; background-color: #21262d; border: 1px solid var(--border); color: #fff; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: all 0.2s; }
+        .portfolio-btn:hover { background-color: #30363d; border-color: #8b949e; }
+        .portfolio-btn.primary { background-color: #238636; border-color: #2ea043; }
+        .portfolio-btn.primary:hover { background-color: #2ea043; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chilakabathini Samaram</h1>
+            <p class="subtitle">Cloud-Native Architect & Senior Network Infrastructure Engineer</p>
+        </header>
+
+        <div class="grid">
+            <!-- Core Qualifications -->
+            <div class="card">
+                <h2>Operational Profile</h2>
+                <ul>
+                    <li><strong>Production Scale:</strong> 5+ Years executing enterprise network design & automated deployment mandates.</li>
+                    <li><strong>Architecture Philosophy:</strong> Declarative, self-healing software-defined platforms bridging on-prem hardware and cloud runtimes.</li>
+                    <li><strong>Personal Lab Ecosystem:</strong> Custom target-built web services deploying Android 15 + Termux media hosting, multi-tenant file pools, and private infrastructure controllers.</li>
+                </ul>
+            </div>
+
+            <!-- Network Engineering Core -->
+            <div class="card">
+                <h2>Core Networking & Routing</h2>
+                <ul>
+                    <li><strong>Layer 2 Hardening:</strong> Micro-segmented Enterprise VLAN layout topologies, secure DHCP Snooping, Dynamic ARP Inspection (DAI), and hard Port Security.</li>
+                    <li><strong>Layer 3 Execution:</strong> Multi-tenant VRF-Aware BGP route distribution, path-optimized Policy-Based Routing (PBR), and robust static redirection.</li>
+                    <li><strong>Secure Interconnects:</strong> Enterprise-scale Cisco DMVPN topologies utilizing crypto security, IPSec tunnels, and dynamic hub-spoke peering.</li>
+                </ul>
+            </div>
+
+            <!-- Modern Infrastructure & Operations -->
+            <div class="card">
+                <h2>Wireless, Cloud & Automation</h2>
+                <ul>
+                    <li><strong>Enterprise Wireless:</strong> Controller-managed environments including cloud-orchestrated Cisco Meraki frameworks integrated via secure 802.1X RADIUS authentication schemes.</li>
+                    <li><strong>Automation Workflows:</strong> Declarative infrastructure state management writing highly-optimized Python code and modular Ansible playbooks.</li>
+                    <li><strong>Security Ecosystems:</strong> Cross-domain firewall policy mapping (Palo Alto, Fortinet, Cisco ASA) establishing tight micro-perimeters.</li>
+                </ul>
+            </div>
+
+            <!-- High-Value Cloud-Native Mastery -->
+            <div class="card">
+                <h2>Hyperscale & Cloud-Native Target Vectors</h2>
+                <p>Equipped with advanced cross-domain proficiencies across multi-cloud environments, modern orchestrators, and intelligent traffic management layers:</p>
+                <div class="badge-container">
+                    <span class="badge">Kubernetes CNI/CRI</span>
+                    <span class="badge">Multi-Cloud Federation</span>
+                    <span class="badge">Azure Landing Zones</span>
+                    <span class="badge">Google Cloud Anthos</span>
+                    <span class="badge">AI Network Optimization</span>
+                    <span class="badge">Palo Alto Next-Gen FW</span>
+                    <span class="badge">Fortinet SD-WAN</span>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer-card">
+            <h2>Connect & Review Documentation</h2>
+            <p>Actively evaluating Senior Infrastructure Architect, L3/Lead Network Engineer, and Cloud-Native Strategy roles globally.</p>
+            <div class="links-group">
+                <a href="mailto:samaram.chilakabathini@gmail.com" class="portfolio-btn primary">✉ Email Professional Inbox</a>
+                <a href="https://linkedin.com/in/samaram-chilakabathini" target="_blank" class="portfolio-btn">💼 LinkedIn Profile</a>
+                <a href="https://github.com/samaram-chilakabathini" target="_blank" class="portfolio-btn">🛠 GitHub Infrastructure Repo</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
